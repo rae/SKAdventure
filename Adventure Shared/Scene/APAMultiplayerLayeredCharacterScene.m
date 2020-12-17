@@ -5,7 +5,6 @@
  */
 
 #import "APAMultiplayerLayeredCharacterScene.h"
-#import "APAPlayer.h"
 #import "APAHeroCharacter.h"
 #import "APAGraphicsUtilities.h"
 #import <GameController/GameController.h>
@@ -153,8 +152,8 @@
         [(NSMutableArray *)_hudScores addObject:score];
         [hud addChild:score];
         
-        [(NSMutableArray *)_hudLifeHeartArrays addObject:[NSMutableArray arrayWithCapacity:kStartLives]];
-        for (int j = 0; j < kStartLives; j++) {
+        [(NSMutableArray *)_hudLifeHeartArrays addObject:[NSMutableArray arrayWithCapacity: APAPlayer.kStartLives]];
+        for (int j = 0; j < APAPlayer.kStartLives; j++) {
             SKSpriteNode *heart = [SKSpriteNode spriteNodeWithImageNamed:@"lives.png"];
             heart.scale = 0.4;
             heart.position = CGPointMake(hudX + i * hudD + (avatar.size.width * 1.0) + 18 + ((heart.size.width + 5) * j), hudY - 10);

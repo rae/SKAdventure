@@ -19,6 +19,5 @@
 #import "APAHeroCharacter.h"
 #import "APAMultiplayerLayeredCharacterScene.h"
 #import "APAParallaxSprite.h"
-#import "APAPlayer.h"
 #import "APASpawnAI.h"
 #import "APAWarrior.h"

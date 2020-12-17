@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		011875B4258BD444007C626A /* APATree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011875B3258BD444007C626A /* APATree.swift */; };
 		011875B5258BD444007C626A /* APATree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011875B3258BD444007C626A /* APATree.swift */; };
+		011875BD258BDE3B007C626A /* APAPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011875BC258BDE3B007C626A /* APAPlayer.swift */; };
+		011875BE258BDE3B007C626A /* APAPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011875BC258BDE3B007C626A /* APAPlayer.swift */; };
 		381803F1175A7AD100D4A0CB /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381803F0175A7AD100D4A0CB /* iPhoneStoryboard.storyboard */; };
 		3818043F175A7E3100D4A0CB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3818043C175A7E3100D4A0CB /* Default.png */; };
 		38180440175A7E3100D4A0CB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3818043D175A7E3100D4A0CB /* Default@2x.png */; };
@@ -29,8 +31,6 @@
 		3834C7AE172C83E600BF3395 /* APAAdventureScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834C7A8172C83E600BF3395 /* APAAdventureScene.m */; };
 		3834C7AF172C83E600BF3395 /* APAMultiplayerLayeredCharacterScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834C7AA172C83E600BF3395 /* APAMultiplayerLayeredCharacterScene.m */; };
 		3834C7B0172C83E600BF3395 /* APAMultiplayerLayeredCharacterScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834C7AA172C83E600BF3395 /* APAMultiplayerLayeredCharacterScene.m */; };
-		3834C7B1172C83E600BF3395 /* APAPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834C7AC172C83E600BF3395 /* APAPlayer.m */; };
-		3834C7B2172C83E600BF3395 /* APAPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834C7AC172C83E600BF3395 /* APAPlayer.m */; };
 		3834C7C8172C840800BF3395 /* APAArcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834C7B5172C840800BF3395 /* APAArcher.m */; };
 		3834C7C9172C840800BF3395 /* APAArcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834C7B5172C840800BF3395 /* APAArcher.m */; };
 		3834C7CA172C840800BF3395 /* APABoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834C7B7172C840800BF3395 /* APABoss.m */; };
@@ -174,6 +174,7 @@
 		011875B1258BD444007C626A /* Adventure-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adventure-Bridging-Header.h"; sourceTree = "<group>"; };
 		011875B2258BD444007C626A /* Adventure iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adventure iOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		011875B3258BD444007C626A /* APATree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APATree.swift; sourceTree = "<group>"; };
+		011875BC258BDE3B007C626A /* APAPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APAPlayer.swift; sourceTree = "<group>"; };
 		2853BC80176516F1007702FB /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		381803F0175A7AD100D4A0CB /* iPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneStoryboard.storyboard; sourceTree = "<group>"; };
 		3818043C175A7E3100D4A0CB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -192,8 +193,6 @@
 		3834C7A8172C83E600BF3395 /* APAAdventureScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = APAAdventureScene.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		3834C7A9172C83E600BF3395 /* APAMultiplayerLayeredCharacterScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = APAMultiplayerLayeredCharacterScene.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		3834C7AA172C83E600BF3395 /* APAMultiplayerLayeredCharacterScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = APAMultiplayerLayeredCharacterScene.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		3834C7AB172C83E600BF3395 /* APAPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAPlayer.h; sourceTree = "<group>"; };
-		3834C7AC172C83E600BF3395 /* APAPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAPlayer.m; sourceTree = "<group>"; };
 		3834C7B4172C840800BF3395 /* APAArcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAArcher.h; sourceTree = "<group>"; };
 		3834C7B5172C840800BF3395 /* APAArcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAArcher.m; sourceTree = "<group>"; };
 		3834C7B6172C840800BF3395 /* APABoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APABoss.h; sourceTree = "<group>"; };
@@ -352,8 +351,7 @@
 			children = (
 				3834C7A9172C83E600BF3395 /* APAMultiplayerLayeredCharacterScene.h */,
 				3834C7AA172C83E600BF3395 /* APAMultiplayerLayeredCharacterScene.m */,
-				3834C7AB172C83E600BF3395 /* APAPlayer.h */,
-				3834C7AC172C83E600BF3395 /* APAPlayer.m */,
+				011875BC258BDE3B007C626A /* APAPlayer.swift */,
 				3834C7A7172C83E600BF3395 /* APAAdventureScene.h */,
 				3834C7A8172C83E600BF3395 /* APAAdventureScene.m */,
 			);
@@ -857,7 +855,7 @@
 				3834C7CE172C840800BF3395 /* APACharacter.m in Sources */,
 				3834C7A4172C83C800BF3395 /* APASpawnAI.m in Sources */,
 				387FBF6F172C829F0072E10A /* APAAppDelegateOSX.m in Sources */,
-				3834C7B1172C83E600BF3395 /* APAPlayer.m in Sources */,
+				011875BD258BDE3B007C626A /* APAPlayer.swift in Sources */,
 				3834C7DA172C840800BF3395 /* APAWarrior.m in Sources */,
 				3834C7A0172C83C800BF3395 /* APAArtificialIntelligence.m in Sources */,
 				3834C7A2172C83C800BF3395 /* APAChaseAI.m in Sources */,
@@ -881,7 +879,6 @@
 				3834C7E0172C843200BF3395 /* APAGraphicsUtilities.m in Sources */,
 				3834C7CF172C840800BF3395 /* APACharacter.m in Sources */,
 				3834C7A5172C83C800BF3395 /* APASpawnAI.m in Sources */,
-				3834C7B2172C83E600BF3395 /* APAPlayer.m in Sources */,
 				011875B5258BD444007C626A /* APATree.swift in Sources */,
 				3834C7DB172C840800BF3395 /* APAWarrior.m in Sources */,
 				3834C7A1172C83C800BF3395 /* APAArtificialIntelligence.m in Sources */,
@@ -894,6 +891,7 @@
 				3834C7D3172C840800BF3395 /* APAGoblin.m in Sources */,
 				3834C7E9172C855700BF3395 /* APAAppDelegateIOS.m in Sources */,
 				384321BE172C9422002FC613 /* APAViewController.m in Sources */,
+				011875BE258BDE3B007C626A /* APAPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,6 @@
 #import "APAChaseAI.h"
 #import "APACharacter.h"
 #import "APAGraphicsUtilities.h"
-#import "APAPlayer.h"
 #import "APAMultiplayerLayeredCharacterScene.h"
 #import "APAHeroCharacter.h"
 

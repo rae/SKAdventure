@@ -12,7 +12,6 @@
 #import "APACave.h"
 #import "APABoss.h"
 #import "APAGoblin.h"
-#import "APAPlayer.h"
 
 // Uncomment this to cheat and move yourself near the boss for testing.
 //#define MOVE_NEAR_TO_BOSS 1
