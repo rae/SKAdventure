@@ -44,7 +44,7 @@ typedef void (^APAAssetLoadCompletionHandler)(void);
 @property (nonatomic) CGPoint defaultSpawnPoint;                // the point at which heroes are spawned
 @property (nonatomic) BOOL worldMovedForUpdate;                 // indicates the world moved before or during the current update
 
-@property (nonatomic, readonly) NSArray *heroes;                // all heroes in the game
+@property (nonatomic, readonly) NSArray<APACharacter*> *heroes;                // all heroes in the game
 
 /* Start loading all the shared assets for the scene in the background. This method calls +loadSceneAssets 
    on a background queue, then calls the callback handler on the main thread. */

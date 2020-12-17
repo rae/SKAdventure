@@ -6,7 +6,6 @@
 
 #import "APAAdventureScene.h"
 #import "APAGraphicsUtilities.h"
-#import "APATree.h"
 #import "APACharacter.h"
 #import "APAWarrior.h"
 #import "APAArcher.h"

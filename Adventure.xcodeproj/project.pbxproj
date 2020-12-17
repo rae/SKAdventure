@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011875B4258BD444007C626A /* APATree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011875B3258BD444007C626A /* APATree.swift */; };
+		011875B5258BD444007C626A /* APATree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011875B3258BD444007C626A /* APATree.swift */; };
 		381803F1175A7AD100D4A0CB /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381803F0175A7AD100D4A0CB /* iPhoneStoryboard.storyboard */; };
 		3818043F175A7E3100D4A0CB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3818043C175A7E3100D4A0CB /* Default.png */; };
 		38180440175A7E3100D4A0CB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3818043D175A7E3100D4A0CB /* Default@2x.png */; };
@@ -45,8 +47,6 @@
 		3834C7D5172C840800BF3395 /* APAHeroCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834C7C1172C840800BF3395 /* APAHeroCharacter.m */; };
 		3834C7D6172C840800BF3395 /* APAParallaxSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834C7C3172C840800BF3395 /* APAParallaxSprite.m */; };
 		3834C7D7172C840800BF3395 /* APAParallaxSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834C7C3172C840800BF3395 /* APAParallaxSprite.m */; };
-		3834C7D8172C840800BF3395 /* APATree.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834C7C5172C840800BF3395 /* APATree.m */; };
-		3834C7D9172C840800BF3395 /* APATree.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834C7C5172C840800BF3395 /* APATree.m */; };
 		3834C7DA172C840800BF3395 /* APAWarrior.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834C7C7172C840800BF3395 /* APAWarrior.m */; };
 		3834C7DB172C840800BF3395 /* APAWarrior.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834C7C7172C840800BF3395 /* APAWarrior.m */; };
 		3834C7DF172C843200BF3395 /* APAGraphicsUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834C7DE172C843200BF3395 /* APAGraphicsUtilities.m */; };
@@ -171,6 +171,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		011875B1258BD444007C626A /* Adventure-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adventure-Bridging-Header.h"; sourceTree = "<group>"; };
+		011875B2258BD444007C626A /* Adventure iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adventure iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		011875B3258BD444007C626A /* APATree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APATree.swift; sourceTree = "<group>"; };
 		2853BC80176516F1007702FB /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		381803F0175A7AD100D4A0CB /* iPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneStoryboard.storyboard; sourceTree = "<group>"; };
 		3818043C175A7E3100D4A0CB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -207,8 +210,6 @@
 		3834C7C1172C840800BF3395 /* APAHeroCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = APAHeroCharacter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		3834C7C2172C840800BF3395 /* APAParallaxSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAParallaxSprite.h; sourceTree = "<group>"; };
 		3834C7C3172C840800BF3395 /* APAParallaxSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAParallaxSprite.m; sourceTree = "<group>"; };
-		3834C7C4172C840800BF3395 /* APATree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APATree.h; sourceTree = "<group>"; };
-		3834C7C5172C840800BF3395 /* APATree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APATree.m; sourceTree = "<group>"; };
 		3834C7C6172C840800BF3395 /* APAWarrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAWarrior.h; sourceTree = "<group>"; };
 		3834C7C7172C840800BF3395 /* APAWarrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAWarrior.m; sourceTree = "<group>"; };
 		3834C7DD172C843200BF3395 /* APAGraphicsUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAGraphicsUtilities.h; sourceTree = "<group>"; };
@@ -364,8 +365,7 @@
 			children = (
 				3834C7C2172C840800BF3395 /* APAParallaxSprite.h */,
 				3834C7C3172C840800BF3395 /* APAParallaxSprite.m */,
-				3834C7C4172C840800BF3395 /* APATree.h */,
-				3834C7C5172C840800BF3395 /* APATree.m */,
+				011875B3258BD444007C626A /* APATree.swift */,
 				3834C7BA172C840800BF3395 /* APACharacter.h */,
 				3834C7BB172C840800BF3395 /* APACharacter.m */,
 				3834C7C0172C840800BF3395 /* APAHeroCharacter.h */,
@@ -382,6 +382,8 @@
 				3834C7B9172C840800BF3395 /* APACave.m */,
 				3834C7B6172C840800BF3395 /* APABoss.h */,
 				3834C7B7172C840800BF3395 /* APABoss.m */,
+				011875B1258BD444007C626A /* Adventure-Bridging-Header.h */,
+				011875B2258BD444007C626A /* Adventure iOS-Bridging-Header.h */,
 			);
 			path = Sprites;
 			sourceTree = "<group>";
@@ -678,11 +680,15 @@
 				TargetAttributes = {
 					387FBF51172C829F0072E10A = {
 						DevelopmentTeam = B4B222G88M;
+						LastSwiftMigration = 1230;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
 							};
 						};
+					};
+					387FBF7B172C82FF0072E10A = {
+						LastSwiftMigration = 1230;
 					};
 				};
 			};
@@ -844,11 +850,11 @@
 			files = (
 				3834C7AF172C83E600BF3395 /* APAMultiplayerLayeredCharacterScene.m in Sources */,
 				3834C7AD172C83E600BF3395 /* APAAdventureScene.m in Sources */,
+				011875B4258BD444007C626A /* APATree.swift in Sources */,
 				3834C7CC172C840800BF3395 /* APACave.m in Sources */,
 				387FBF64172C829F0072E10A /* main.m in Sources */,
 				3834C7DF172C843200BF3395 /* APAGraphicsUtilities.m in Sources */,
 				3834C7CE172C840800BF3395 /* APACharacter.m in Sources */,
-				3834C7D8172C840800BF3395 /* APATree.m in Sources */,
 				3834C7A4172C83C800BF3395 /* APASpawnAI.m in Sources */,
 				387FBF6F172C829F0072E10A /* APAAppDelegateOSX.m in Sources */,
 				3834C7B1172C83E600BF3395 /* APAPlayer.m in Sources */,
@@ -874,9 +880,9 @@
 				387FBF8B172C82FF0072E10A /* main.m in Sources */,
 				3834C7E0172C843200BF3395 /* APAGraphicsUtilities.m in Sources */,
 				3834C7CF172C840800BF3395 /* APACharacter.m in Sources */,
-				3834C7D9172C840800BF3395 /* APATree.m in Sources */,
 				3834C7A5172C83C800BF3395 /* APASpawnAI.m in Sources */,
 				3834C7B2172C83E600BF3395 /* APAPlayer.m in Sources */,
+				011875B5258BD444007C626A /* APATree.swift in Sources */,
 				3834C7DB172C840800BF3395 /* APAWarrior.m in Sources */,
 				3834C7A1172C83C800BF3395 /* APAArtificialIntelligence.m in Sources */,
 				3834C7A3172C83C800BF3395 /* APAChaseAI.m in Sources */,
@@ -1016,6 +1022,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "Adventure OS X/Adventure.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1030,9 +1037,13 @@
 					"__AVAILABILITY_INTERNAL__MAC_10_9=__attribute__((availability(macosx,introduced=10.8)))",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Adventure OS X/Adventure-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Adventure Shared/Sprites/Adventure-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1041,6 +1052,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "Adventure OS X/Adventure.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1050,9 +1062,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Adventure OS X/Adventure-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Adventure OS X/Adventure-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Adventure Shared/Sprites/Adventure-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1061,7 +1076,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1076,9 +1091,13 @@
 				);
 				INFOPLIST_FILE = "Adventure iOS/Adventure iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Adventure;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Adventure Shared/Sprites/Adventure iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1088,7 +1107,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1099,9 +1118,12 @@
 				GCC_PREFIX_HEADER = "Adventure iOS/Adventure iOS-Prefix.pch";
 				INFOPLIST_FILE = "Adventure iOS/Adventure iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Adventure;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Adventure Shared/Sprites/Adventure iOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
